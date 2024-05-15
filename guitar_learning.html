@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吉他社教學內容</title>
+    <style>
+        *{
+            box-sizing: border-box;
+           
+        }
+        .learning-main{
+            width: 1000px;
+            height: 768px;
+            background-image: url('./image/0101.jpg');
+            margin: auto;
+        }
+        .top{
+            font-size: 18px;
+            font-family: '標楷體';
+            color: red;
+            margin: auto;
+            text-align: center;
+        }
+        .table-nav{
+            text-align: center;
+            margin: auto;
+        }
+        .td-nav{
+            width: 250px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .box:hover{
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+            padding: 4px 0;
+        }
+        .box{transition: all 0.3s ease;}
+    </style>
+</head>
+<body>
+    <!-- 版面 -->
+    <div class="learning-main">
+    <!-- 主題 -->
+        <div class="top">
+            <p>吉他社教學內容</p>
+        </div>
+    <!-- 選單 -->
+        <div>
+            <table class="table-nav">
+                <tr>
+                    <td class="td-nav"><a href="./index.html">回社團介紹首頁</a></td>
+                    <td class="td-nav"><a href="./guitar_history.html">吉他社社史</a></td>
+                    <td class="td-nav"><a href="./guitar_event.html">吉他社近期活動公告</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <p class="box">基礎樂理</p>
+            <p class="box">常用之吉他技巧</p>
+            <p class="box">音程介紹以及音程表內容</p>
+            <p class="box">節奏型態</p>
+            <p class="box">和絃及級數和絃</p>
+            <p class="box">和絃公式</p>
+            <p class="box">轉位複合</p>
+            <p class="box">調音法</p>
+            <p class="box">吉他的保養</p>
+            <p class="box">如何轉調</p>
+        </div>
+    </div>
+</body>
+</html>
